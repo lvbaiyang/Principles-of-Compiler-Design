@@ -1,7 +1,19 @@
 ## Exercise 3.3.5
 
-#### 1. [A-Za-z]<sup>* </sup>a [A-Za-z]<sup>* </sup>e [A-Za-z]<sup>* </sup>i [A-Za-z]<sup>* </sup>o [A-Za-z]<sup>* </sup> u [A-Za-z]<sup>* </sup>
+#### 1. 
+```
+[A-Za-z]*a[A-Za-z]*e[A-Za-z]*i[A-Za-z]*o[A-Za-z]*u[A-Za-z]*
+```
+#### 2.
+```
+a*b*c*...z*
+```
+#### 8.
+```
+b*(ab?a*)*
+```
 
-#### 2. a<sup>* </sup>b<sup>* </sup>c<sup>* </sup>...z<sup>* </sup>
-
-#### 3. 
+#### 9.
+```
+b*(a*b)?a*  
+```
